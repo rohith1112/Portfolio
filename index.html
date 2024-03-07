@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rohith's-Portfolio</title>
+    <link rel="icon" href="img/images-removebg-preview.png">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" />
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+<body>
+    <header>
+    <nav>
+        <label class="logo"><img style="height:100%;cursor:pointer" src="img/iconlogo.png" ></label>
+        <ul class="sidebar">
+            <li onclick=hideSidebar()><a style="cursor:pointer"><svg fill="#ffffff" width="64px" height="64px" viewBox="-16 -16 48.00 48.00" id="home-16px" xmlns="http://www.w3.org/2000/svg">
+                <g id="SVGRepo_bgCarrier" stroke-width="0"/>
+                
+                <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"/>
+                
+                <g id="SVGRepo_iconCarrier"> <path id="Path_77" data-name="Path 77" d="M-13,11.5v2A2.5,2.5,0,0,1-15.5,16h-4A2.5,2.5,0,0,1-22,13.5V2.5A2.5,2.5,0,0,1-19.5,0h4A2.5,2.5,0,0,1-13,2.5v2a.5.5,0,0,1-.5.5.5.5,0,0,1-.5-.5v-2A1.5,1.5,0,0,0-15.5,1h-4A1.5,1.5,0,0,0-21,2.5v11A1.5,1.5,0,0,0-19.5,15h4A1.5,1.5,0,0,0-14,13.5v-2a.5.5,0,0,1,.5-.5A.5.5,0,0,1-13,11.5Zm6.962-3.809a.505.505,0,0,0,0-.382.518.518,0,0,0-.109-.163l-4-4a.5.5,0,0,0-.708,0,.5.5,0,0,0,0,.708L-7.707,7H-17.5a.5.5,0,0,0-.5.5.5.5,0,0,0,.5.5h9.793l-3.147,3.146a.5.5,0,0,0,0,.708A.5.5,0,0,0-10.5,12a.5.5,0,0,0,.354-.146l4-4A.518.518,0,0,0-6.038,7.691Z" transform="translate(22)"/> </g>
+                
+                </svg></a></li>
+            <li><a href="#home" style="padding-left:70px" >Home</a></li>
+            <li><a href="#about" style="padding-left:70px">About</a></li>
+            <li><a href="#skills" style="padding-left:70px">Skills</a></li>
+            <li><a href="#projects" style="padding-left:70px">Projects</a></li>
+            <li><a href="#contact" style="padding-left:70px">Contact</a></li>
+        </ul>
+        <ul>
+            <li class="hideOnMobile"><a href="#home">Home</a></li>
+            <li class="hideOnMobile"><a href="#about">About</a></li>
+            <li class="hideOnMobile"><a href="#skills">Skills</a></li>
+            <li class="hideOnMobile"><a href="#projects">Projects</a></li>
+            <li class="hideOnMobile"><a href="#contact">Contact</a></li>
+            <li class="menu-button"  onclick=showSidebar()><a style="cursor:pointer" ><svg width="64px" height="64px" viewBox="-24 -24 72.00 72.00" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="#181c26">
+                <g id="SVGRepo_bgCarrier" stroke-width="0"/>
+                
+                <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"/>
+                
+                <g id="SVGRepo_iconCarrier"> <path d="M21.93 6.76001L18.56 20.29C18.32 21.3 17.42 22 16.38 22H3.24001C1.73001 22 0.650023 20.5199 1.10002 19.0699L5.31001 5.55005C5.60001 4.61005 6.47003 3.95996 7.45003 3.95996H19.75C20.7 3.95996 21.49 4.53997 21.82 5.33997C22.01 5.76997 22.05 6.26001 21.93 6.76001Z" stroke="#ffffff" stroke-width="1.5" stroke-miterlimit="10"/> <path d="M16 22H20.78C22.07 22 23.08 20.91 22.99 19.62L22 6" stroke="#ffffff" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/> <path d="M9.67999 6.38L10.72 2.06006" stroke="#ffffff" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/> <path d="M16.38 6.39001L17.32 2.05005" stroke="#ffffff" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/> <path d="M7.70001 12H15.7" stroke="#ffffff" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/> <path d="M6.70001 16H14.7" stroke="#ffffff" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/> </g>
+                
+                </svg></a></li>
+        </ul>
+    </nav>
+</header>
+    <section id="home">
+        <div class="main" style="margin-left:30px">
+        <p class="hello" data-aos="fade-left" data-aos-delay="100">--- Hello</p>
+        <h2 style="font: size 22px;" data-aos="fade-left" data-aos-delay="100">I'm <span style="color:#f3c370">Rohith</span> Thirunalveli</h2>
+        <p class="description" data-aos="fade-up" data-aos-delay="100" style="margin-left:15px;margin-bottom:20px;margin-right:10px">This is Rohith, a passionate and results-driven web developer dedicated to creating efficient, user-friendly, and visually appealing websites. With a strong foundation in front-end and back-end technologies, I bring a unique blend of creativity and technical expertise to every project.</p>
+        <div class="center">
+            <button class="btn" data-aos="fade-up" data-aos-delay="100" onclick="openResume()">
+                <svg width="180" height="60" viewBox="0 0 180 60" class="btn-svg">
+                  <polyline points="179,1 179,59 1,59 1,1 179,1" class="bg-line" />
+                  <polyline points="179,1 179,59 1,59 1,1 179,1" class="hl-line" />
+                </svg>
+                <span>Resume</span>
+            </button>
+        </div>
+    </div>
+    <section id="about" style="margin-top:25px;margin-left:30px" data-aos="fade-right" data-aos-delay="100">
+        <img class="profile" alt="" style="float:left;margin-top:18px;margin-left:-90px;margin-right:0px;" src="img/pic.png">
+        <h3 class="aboutme" style="margin-left:90px;margin-right:-110px;color:#f3c370">-- About Me</h3>
+        <p class="info" style="margin-right:10px;margin-left:0px">I'm a Web Developer with experience in front-end development, HTML, CSS, JavaScript, MERN stack and Springboot. Located in India, looking for working across the globe.</p><br>
+        <div id="personalInfo" data-aos="fade-left" data-aos-delay="100">
+            <table class="table">
+                <tr>
+                    <td style="color:#f3c370">Age</td>
+                    <td>:</td>
+                    <td>23</td>
+                </tr>
+                <tr>
+                    <td style="color:#f3c370">Qualification</td>
+                    <td>:</td>
+                    <td>B.Tech</td>
+                </tr>
+                <tr>
+                    <td style="color:#f3c370">Email</td>
+                    <td>:</td>
+                    <td>rohithvits116@gmail.com</td>
+                </tr>
+                <tr>
+                    <td style="color:#f3c370">Address</td>
+                    <td>:</td>
+                    <td>Andhra Pradesh, India</td>
+                </tr>
+                <tr>
+                    <td style="color:#f3c370">Freelance</td>
+                    <td>:</td>
+                    <td>Available</td>
+                </tr>
+            </table>
+        </div>
+        <button class="knowmore" type="button">Know more</button>
+        <div id="popup-container" class="popup-container">            <div class="popup-content">
+                <span id="close-btn" class="close-btn">&times;</span>
+                <section id="education" class="resume-section">
+                    <h3 style="color:#f3c370">Education</h3>
+                    
+                    <div class="education-entry">
+                        <div class="education-info">
+                            <h4 class="degree">- B.Tech</h4>
+                            <p class="institution">PBR Visvodaya Institute of Technology and Science</p>
+                            <p class="duration">2019 - 2023</p>
+                        </div>
+                        <p class="percentage">70%</p>
+                    </div>
+                    
+                    <div class="education-entry">
+                        <div class="education-info">
+                            <h4 class="degree">- Intermediate</h4>
+                            <p class="institution">Narayana Junior College</p>
+                            <p class="duration">2017 - 2019</p>
+                        </div>
+                        <p class="percentage">87.8%</p>
+                    </div>
+                    <div class="education-entry">
+                        <div class="education-info">
+                            <h4 class="degree">- 10th Standard</h4>
+                            <p class="institution">Narayana High School</p>
+                            <p class="duration">2016 - 2017</p>
+                        </div>
+                        <p class="percentage">90.2%</p>
+                    </div>
+                    <h3 style="color:#f3c370">Achievements</h3>
+                    <ul>
+                        <p>- Certified and completed the one month internship from GlobalTech company in Web development.</p>
+                        <p>- I hold certifications in Full Stack Development, Python programming, MySql, and Java.</p>
+                    </ul><br>
+                    <h3 style="color:#f3c370">Certificates</h3>
+                    <div class="slideshow-container">
+                        <div class="mySlides fade">
+                          <img src="img/WhatsApp Image 2024-01-04 at 5.21.03 AM.jpeg" style="width:100%;height:100%">
+                        </div>
+                        <div class="mySlides fade">
+                            <img src="img/Thirunalveli Rohith _page-0001.jpg" style="width:100%;height:100%">
+                          </div>
+                          <div class="mySlides fade">
+                            <img src="img/Thirunalveli Rohith   _page-0001.jpg" style="width:100%;height:100%">
+                          </div>
+                          <div class="mySlides fade">
+                            <img src="img/T Rohith_page-0001.jpg" style="width:100%;height:100%">
+                          </div>
+                          <div class="mySlides fade">
+                            <img src="img/download_page-0001.jpg" style="width:100%;height:100%">
+                          </div>
+                          <div class="mySlides fade">
+                            <img src="img/THIRUNALVELI ROHITH_page-0001.jpg" style="width:100%;height:100%">
+                          </div>
+                        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                        </div>
+                        <div style="text-align:center;margin-top:-10%">
+                          <span class="dot" onclick="currentSlide(1)"></span> 
+                          <span class="dot" onclick="currentSlide(2)"></span> 
+                          <span class="dot" onclick="currentSlide(3)"></span> 
+                          <span class="dot" onclick="currentSlide(4)"></span> 
+                          <span class="dot" onclick="currentSlide(5)"></span> 
+                          <span class="dot" onclick="currentSlide(6)"></span> 
+                        </div>
+                </section>
+            </div>
+        </div>
+    </section><br>
+    <section id="skills" data-aos="fade-up" data-aos-delay="100">
+        <div class="inner">
+                <h3 style="color:#f3c370;top:0">-- Skills</h3><br>
+            <div class="container">
+                <div class="skill-box">
+                    <div class="skill-title">
+                        <div class="img1">
+                          <img src="img/java.png" class="skill-icon" alt="HTML5">
+                        </div>
+                        <h5>Java</h5>
+                      </div>
+                </div>
+                <div class="skill-box">
+                    <div class="skill-title">
+                        <div class="img1">
+                          <img src="img/python.png" class="skill-icon" alt="HTML5">
+                        </div>
+                        <h5>Python</h5>
+                      </div>
+                </div>
+                <div class="skill-box">
+                    <div class="skill-title">
+                        <div class="img1">
+                          <img src="img/data-structure-icon-flat-long-sh-removebg-preview.png" class="skill-icon" alt="HTML5">
+                        </div>
+                        <h5>Data Structures</h5>
+                      </div>
+                </div>
+                <div class="skill-box">
+                    <div class="skill-title">
+                        <div class="img1">
+                          <img src="img/5.png" class="skill-icon" alt="HTML5">
+                        </div>
+                        <h5>MySQL</h5>
+                      </div>
+                </div>
+                <div class="skill-box">
+                    <div class="skill-title">
+                        <div class="img1">
+                            <img src="img/html.png" class="skill-icon" alt="First Image">
+                        </div>
+                        <h5>HTML5</h5>
+                    </div>
+                </div>
+                <div class="skill-box">
+                    <div class="skill-title">
+                        <div class="img1">
+                          <img src="img/css.png" class="skill-icon" alt="HTML5">
+                        </div>
+                        <h5>CSS3</h5>
+                      </div>
+                </div>
+                <div class="skill-box">
+                    <div class="skill-title">
+                        <div class="img1">
+                          <img src="img/js.png" class="skill-icon" alt="HTML5">
+                        </div>
+                        <h5>JavaScript</h5>
+                    </div>
+                </div>
+                <div class="skill-box">
+                    <div class="skill-title">
+                        <div class="img1">
+                          <img src="img/m.png" class="skill-icon" alt="HTML5">
+                        </div>
+                        <h5>Mongo DB</h5>
+                      </div>
+                </div>
+                <div class="skill-box">
+                    <div class="skill-title">
+                        <div class="img1">
+                          <img src="img/e.png" class="skill-icon" alt="HTML5">
+                        </div>
+                        <h5>Express Js</h5>
+                      </div>
+                </div>
+                <div class="skill-box">
+                    <div class="skill-title">
+                        <div class="img1">
+                          <img src="img/react.png" class="skill-icon" alt="HTML5">
+                        </div>
+                        <h5>React Js</h5>
+                      </div>
+                </div>
+                <div class="skill-box">
+                    <div class="skill-title">
+                        <div class="img1">
+                          <img src="img/n.png" class="skill-icon" alt="HTML5">
+                        </div>
+                        <h5>Node Js</h5>
+                      </div>
+                </div>
+                <div class="skill-box">
+                    <div class="skill-title">
+                        <div class="img1">
+                          <img src="img/spring-icon-256x256-2efvkvky.png" class="skill-icon" alt="HTML5">
+                        </div>
+                        <h5>Spring Boot</h5>
+                      </div>
+                </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <br>
+    <section id="projects" data-aos="fade-up" data-aos-delay="100">
+        <h3 style="color:#f3c370">-- Projects</h3>
+         <!-- Swiper -->
+  <div class="swiper mySwiper">
+    <div class="swiper-wrapper">
+        <div class="swiper-slide">
+            <div class="card">
+                <div class="image-content">
+                            <span class="overlay"></span>
+                            <div class="card-image">
+                                <img src="img/Untitled design (4).png" alt="" class="card-image">
+                            </div>
+                        </div>
+                        <div class="card-content">
+                            <h2 class="name" style="margin-bottom:4px;">Online Web Development IDE</h2>
+                            <p class="project-1" style="font-size:14px;color:rgba(255, 255, 255, 0.678);">Developed a fully responsive React-based prototype for a CodePen Clone, integrating the CodeMirror package to enhance the coding experience. This project showcases my proficiency in React development and my ability to leverage external libraries for advanced features. Users can experiment with HTML, CSS, and JavaScript within a dynamic CodeMirror-powered editor. Although the project is in its prototype stage with limited functionality.</p>
+                            <button href="#" class="visit" onclick="visit5()">Visit</button>
+                        </div>
+            </div>
+          </div>
+
+      <div class="swiper-slide">
+          <div class="card">
+              <div class="image-content">
+                            <span class="overlay"></span>
+                            <div class="card-image">
+                                <img src="img/Untitled design.png" alt="" class="card-image">
+                            </div>
+                        </div>
+                        <div class="card-content">
+                            <h2 class="name" style="margin-bottom:4px;">Portfolio Website</h2>
+                            <p class="project-1" style="font-size:14px;color:rgba(255, 255, 255, 0.678);">Developed a personal portfolio website to spotlight your skills, projects, and professional journey. Feature an introduction, an "About Me" section, a project portfolio, and a skills list with a downloadable resume. Ensure a visually appealing, responsive design using HTML5, CSS3, JavaScript, Bootstrap. Optimize for user-friendly navigation and consider deploying on GitHub Pages or Netlify for enhanced online visibility and collaboration opportunities.</p>
+                            <button href="#" class="visit" onclick="visit4()">Visit</button>
+                        </div>
+          </div>
+        </div>
+        
+          <div class="swiper-slide">
+            <div class="card">
+                <div class="image-content">
+                              <span class="overlay"></span>
+                              <div class="card-image">
+                                  <img src="img/Untitled design (3).png" alt="" class="card-image">
+                              </div>
+                          </div>
+                          <div class="card-content">
+                              <h2 class="name" style="margin-bottom:4px;">Note App</h2>
+                              <p class="project-1" style="font-size:14px;color:rgba(255, 255, 255, 0.678);">NoteTaker is a web app built with HTML, CSS, and JavaScript, offering users an intuitive platform to organize notes by categories. Users can easily add, categorize, and manage notes, with support for multiple categories. The responsive design caters to various screen sizes, and data is stored in the browser's local storage for persistence. NoteTaker provides a user-friendly interface, allowing effortless organization and retrieval of notes based on categories.</p>
+                              <button class="visit" onclick="visit3()">Visit</button>
+                          </div>
+            </div>
+          </div><div class="swiper-slide">
+            <div class="card">
+                <div class="image-content">
+                              <span class="overlay"></span>
+                              <div class="card-image">
+                                  <img src="img/Untitled design (2).png" alt="" class="card-image">
+                            </div>
+                        </div>
+                        <div class="card-content">
+                            <h2 class="name" style="margin-bottom:4px;">Tic Tac Toe - Game</h2>
+                            <p class="project-1" style="font-size:14px;color:rgba(255, 255, 255, 0.678);">The Tic Tac Toe project is a web-based game created with HTML, CSS, and JavaScript. It boasts a sleek and centered design for an attractive layout. Players can mark the grid with "X" or "O" to compete for winning combinations in rows, columns, or diagonals. The winner is highlighted in green, and ties are indicated with a subtle gray message.  This project showcases responsive design and a polished user interface, offering a classic yet enjoyable gaming experience.</p>
+                            <button class="visit" onclick="visit2()">Visit</button>
+                        </div>
+            </div>
+        </div>
+        <div class="swiper-slide">
+            <div class="card">
+                <div class="image-content">
+                              <span class="overlay"></span>
+                              <div class="card-image">
+                                  <img src="img/Untitled design (1).png" alt="" class="card-image">
+                              </div>
+                          </div>
+                          <div class="card-content">
+                              <h2 class="name" style="margin-bottom:4px;">Netflix Homepage</h2>
+                              <p class="project-1" style="font-size:14px;color:rgba(255, 255, 255, 0.678);">Created a simplified version of the Netflix homepage using HTML, CSS, and JavaScript to showcase the front-end development skills. This project is designed to provide with hands-on experience in building a visually appealing and interactive web page resembling the popular streaming service.</p>
+                              <button class="visit" onclick="visit1()">Visit</button>
+                          </div>
+            </div>
+          </div>
+    </div>
+    <div class="swiper-pagination"></div>
+  </div>
+    </section><br>
+    <section id="contact" data-aos="fade-up" data-aos-delay="100">
+        <h3 style="color:#f3c370">-- Contact</h3>
+        <div class="contact-container">
+            <div class="items">
+                <div class="desc">
+                    <div class="photo"><img class="profile-2" src="img/IMG_20230720_150932.jpg"/></div>
+                    <p style="text-align:center;margin-top:15px;">THIRUNALVELI ROHITH</p><p style="text-align:center">Web Developer</p>
+                    <div class="wrapper">
+                        <div class="icon linkedin" onclick="redirectToPage1()">
+                          <div class="tooltip">LinkedIn</div>
+                          <span><i class="fa fa-linkedin"></i></span>
+                        </div>
+                        <div class="icon email" onclick="redirectToPage2()">
+                          <div class="tooltip">E-mail</div>
+                          <span><i class="fa fa-envelope"></i></span>
+                        </div>
+                        <div class="icon github" onclick="redirectToPage3()">
+                          <div class="tooltip">Github</div>
+                          <span><i class="fa fa-github"></i></span>
+                        </div>
+                        <div class="icon telegram" onclick="redirectToPage4()">
+                            <div class="tooltip">Telegram</div>
+                            <span><i class="fa fa-telegram"></i></span>
+                          </div>
+                      </div>
+                    <!--<div class="buttons">
+                        <a href="" class="contact">Contact</a>
+                    </div>-->
+                </div>
+                <div class="right" id="full">
+                    <div class="aboutf">
+                        <form style="padding-left:8px" action="#">
+                            <p style="padding-left:10px;font-size:1em;">Get in Touch</p>
+                            <input  class="form-info"  type="text" id="name" placeholder="  Full Name" required>
+                            <input class="form-info"  type="email" id="email" placeholder="  E-Mail" required>
+                            <input class="form-info"  type="tel" id="phone" placeholder="  Phone Number" pattern="[0-9]+">
+                            <textarea class="form-info" style="height:87px;border-radius: 10px 10px 0 10px;border:none;margin-top:10px" id="message" rows="4" placeholder=" How can i help you?" required></textarea>
+                            <button class="submit">Send</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <p>&copy; COPYRIGHT 2023</p>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script src="script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</body>
+</html>
